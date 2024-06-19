@@ -22,11 +22,14 @@ import { HttpClientModule } from '@angular/common/http';
         </button>
         <div *ngIf="searchResults.length > 0" class="mt-4 text-gray-700">
           <div *ngFor="let user of searchResults" class="mb-4 p-4 border rounded-md">
-            <p><strong>Username:</strong> {{ user.username }}</p>
-            <p><strong>PC:</strong> {{ user.pc }}</p>
-            <p><strong>RAM:</strong> {{ user.ram }}</p>
-            <p><strong>Printer:</strong> {{ user.printer }}</p>
-            <p><strong>Info:</strong> {{ user.info }}</p>
+          <p><strong>Nom d'utilisateur:</strong> {{ user.username }}</p>
+    <p><strong>PC:</strong> {{ user.NomAppareil }}</p>
+    <p><strong>Nom Complet:</strong> {{ user.NomComplet }}</p>
+    <p><strong>Processeur:</strong> {{ user.processeur }}</p>
+    <p><strong>Mémoire vive installée:</strong> {{ user.memoire_vive_installe }}</p>
+    <p><strong>Type de système:</strong> {{ user.type_de_systeme }}</p>
+    <p><strong>Imprimante:</strong> {{ user.imprimante }}</p>
+    <p><strong>Autre:</strong> {{ user.autre }}</p> 
           </div>
         </div>
         <div *ngIf="noResults" class="mt-4 text-red-500 text-center">No information found</div>
@@ -36,7 +39,7 @@ import { HttpClientModule } from '@angular/common/http';
 })
 export class SearchComponent {
   searchQuery: string = '';
-  searchResults: User[] = [];
+  searchResults: any[] = [];
   noResults: boolean = false;
 
   constructor(private searchService: SearchService) {}

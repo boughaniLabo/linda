@@ -19,20 +19,16 @@ export class SearchService {
 
   constructor(private http: HttpClient) {}
 
-  getUsers(): Observable<User[]> {
-    return this.http.get<User[]>(this.dataUrl);
+  getUsers(): Observable<any[]> {
+    return this.http.get<any[]>(this.dataUrl);
   }
 
-  searchUser(query: string): Observable<User[]> {
+  searchUser(query: string): Observable<any[]> {
     const lowerCaseQuery = query.toLowerCase();
     return this.getUsers().pipe(
       map(users =>
         users.filter(user =>
-          user.username.toLowerCase().includes(lowerCaseQuery) ||
-          user.pc.toLowerCase().includes(lowerCaseQuery) ||
-          user.ram.toLowerCase().includes(lowerCaseQuery) ||
-          user.printer.toLowerCase().includes(lowerCaseQuery) ||
-          user.info.toLowerCase().includes(lowerCaseQuery)
+          user.username.toLowerCase().includes(lowerCaseQuery) 
         )
       )
     );

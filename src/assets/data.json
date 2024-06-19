@@ -1,24 +1,117 @@
+
 [
-    {
-      "username": "user1",
-      "pc": "PC1",
-      "ram": "16GB",
-      "printer": "HP Printer",
-      "info": "User One's information"
-    },
-    {
-      "username": "user2",
-      "pc": "PC2",
-      "ram": "8GB",
-      "printer": "Canon Printer",
-      "info": "User Two's information"
-    },
-    {
-      "username": "linda",
-      "pc": "PC2",
-      "ram": "16GB",
-      "printer": "Canon Printer",
-      "info": "User Two's information"
-    }
-  ]
+  {
+    "username": "lynda afenai",
+    "NomAppareil": "AVBSIT",
+    "NomComplet": "AVBSIT.autoval.lan",
+    "processeur": "Intel(R) Core(TM) i3-10110U CPU @ 2.10GHz   2.50 GHz",
+    "memoire_vive_installe": " 8,00Go (7,84Go utilisable)",
+    "type_de_systeme ":"Système d’exploitation 64bits, processeur x64",
+    "imprimante": "Canon mf3010",
+    "autres":"téléphone,écran"
+    
+  }, 
+
+  {
+    
+    "username": "fatah zenoud",
+    "NomAppareil": "AVB-IT",
+    "NomComplet": "AVB-IT.autoval.lan",
+    "processeur": "Intel(R) Core(TM) i3-10110U CPU @ 2.10GHz   2.10 GHz",
+    "memoire_vive_installe": " 8,00Go (7,89Go utilisable)",
+    "type_de_systeme":"Système d’exploitation 64bits, processeur x64",
+    "imprimante": "Canon mf3010",
+    "autres":"téléphone,écran"
+    
+  },
   
+  {
+    
+    "username": "farouk baouche",
+    "NomAppareil": "RH-JURIST",
+    "NomComplet": "RH-JURIST.autoval.lan",
+    "processeur": "Intel(R) Core(TM) i3-10110U CPU @ 2.10GHz   2.59 GHz",
+    "memoire_vive_installe": "8,00Go (7,84Go utilisable) ",
+    "type_de_systeme":"Système d’exploitation 64bits, processeur x64",
+    "imprimante": "",
+    "autres":"téléphone"
+  },
+  
+
+  {
+    
+    "username": "naima mohammedi",
+    "NomAppareil": "RH-pc",
+    "NomComplet": "RH-PC.autoval.lan",
+    "processeur": "AMD E1-6010 APU with AMD Radeon R2 Graphics",
+    "memoire_vive_installe": " 2,00Go (1,71Go utilisable)",
+    "type_de_systeme":"Système d’exploitation 32bits",
+    "imprimante": "Canon mf3010",
+    "autres":"téléphone"
+    
+  },
+
+  {
+    
+    "username": "farouk koulalen",
+    "NomAppareil": "AVB-IT",
+    "NomComplet": "AVB-IT.autoval.lan",
+    "processeur": "Intel(R) Core(TM) i3-10110U CPU @ 2.10GHz   2.10 GHz",
+    "memoire_vive_installe": " 8,00Go (7,89Go utilisable)",
+    "type_de_systeme":"Système d’exploitation 64bits, processeur x64",
+    "imprimante": "Canon mf3010",
+    "autres":"téléphone"
+    
+  },
+
+  { 
+    
+    "username": "meriem bouiche",
+    "NomAppareil": "AVB-IT",
+    "NomComplet": "AVB-IT.autoval.lan",
+    "processeur": "Intel(R) Core(TM) i3-10110U CPU @ 2.10GHz   2.10 GHz",
+    "memoire_vive_installe": " 8,00Go (7,89Go utilisable)",
+    "type_de_systeme":"Système d’exploitation 64bits, processeur x64",
+    "imprimante": "Canon mf3010",
+    "autres":"téléphone"
+    
+  },
+  
+
+  {
+    
+    "username": "idir ",
+    "NomAppareil": "AVB-IT",
+    "NomComplet": "AVB-IT.autoval.lan",
+    "processeur": "Intel(R) Core(TM) i3-10110U CPU @ 2.10GHz   2.10 GHz",
+    "memoire_vive_installe": " 8,00Go (7,89Go utilisable)",
+    "type_de_systeme":"Système d’exploitation 64bits, processeur x64",
+    "imprimante": "Canon mf3010",
+    "autres":"téléphone"
+    
+  },
+
+  {
+    
+    "username": "meriem 2",
+    "NomAppareil": "",
+    "NomComplet": "",
+    "processeur": "",
+    "memoire_vive_installe": " ",
+    "type_de_systeme":"",
+    "imprimante": "Canon mf3010",
+    "autres":"téléphone,écran"
+  },
+  {
+    
+    "username": "jugurta",
+    "NomAppareil": "AVB-IT",
+    "NomComplet": "x",
+    "processeur": "y",
+    "memoire_vive_installe": "z ",
+    "type_de_systeme":"11",
+    "imprimante": "Canon mf3010",
+    "autres":"téléphone,écran"
+    
+  }  
+]
